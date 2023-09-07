@@ -9,16 +9,6 @@ import androidx.navigation.Navigation
 import androidx.navigation.findNavController
 import com.example.navigation.databinding.FragmentHomeBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [HomeFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class HomeFragment : Fragment() {
     private var _binding: FragmentHomeBinding? = null
     private val binding get() = _binding!!
@@ -35,10 +25,10 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         binding.btnCategory.setOnClickListener(
-            Navigation.createNavigateOnClickListener(R.id.action_homeFragment_to_categoryFragment)
+            Navigation.createNavigateOnClickListener(R.id.action_homeFragment_to_categoryFragment2)
         )
-        binding.btnProfile.setOnClickListener { view ->
-            view.findNavController().navigate(R.id.action_homeFragment_to_profileActivity)
+        binding.btnProfile.setOnClickListener {
+            view.findNavController().navigate(R.id.action_homeFragment_to_profileActivity2)
         }
     }
 
