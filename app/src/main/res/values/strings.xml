@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">navigation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="btn_fragment_to_profile">Fragment to Profile</string>
+    <string name="btn_fragment_to_category">Fragment to Category</string>
+    <string name="hello_from_fragment">Hello From Fragment</string>
+    <string name="tv_fragment_category">Fragment Category</string>
+    <string name="tv_this_profile">This Profile</string>
+    <string name="btn_category_lifestyle">Category Lifestyle</string>
+    <string name="tv_category_name">Category Name</string>
+    <string name="tv_category_discription">Category Discription</string>
+</resources>

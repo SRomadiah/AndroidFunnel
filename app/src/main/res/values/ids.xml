@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="action_categoryFragment_to_detailCategoryFragment" type="id" />
+    <item name="action_homeFragment_to_categoryFragment" type="id">DetailCategoryFragment</item>
+    <item name="action_homeFragment_to_profileActivity" type="id">ProfileActivity</item>
+</resources>
