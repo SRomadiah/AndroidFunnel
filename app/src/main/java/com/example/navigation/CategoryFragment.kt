@@ -8,16 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.findNavController
 import com.example.navigation.databinding.FragmentCategoryBinding
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
 
-/**
- * A simple [Fragment] subclass.
- * Use the [CategoryFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class CategoryFragment : Fragment() {
     private var _binding: FragmentCategoryBinding? = null
     private val binding get() = _binding!!
@@ -41,7 +32,7 @@ class CategoryFragment : Fragment() {
             val mBundle = Bundle()
             mBundle.putString(EXTRA_NAME, "Lifestyle")
             mBundle.putLong(EXTRA_STOCK, 7)
-            view.findNavController().navigate(R.id.action_categoryFragment_to_detailCategoryFragment, mBundle)
+            view.findNavController().navigate(R.id.action_categoryFragment_to_detailCategoryFragment2, mBundle)
         }
     }
 
